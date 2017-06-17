@@ -49,10 +49,7 @@ final class StripeCell: Cell<String>, CellType, STPPaymentCardTextFieldDelegate 
     }
 }
 
-/// Test
-/*
-    This is a test
- */
+/// An Eureka Row for Stripe's STPPaymentCardTextField.
 final class StripeRow: Row<StripeCell>, RowType {
     required init(tag: String?) {
         super.init(tag: tag)
