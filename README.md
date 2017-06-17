@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/Slugbug/Eureka-StripeRow/blob/master/StripeRowDemo.gif)
 
-Made with ❤️ By: [Slugbug](https://www.slugbug.co).
+Made with ❤️ by [Slugbug](https://www.slugbug.co).
 
 ## Contents
 * [Installation](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#installation)
