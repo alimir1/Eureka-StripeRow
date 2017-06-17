@@ -2,17 +2,17 @@
 
 By: [Ali Mir](http://alimir.io)
 
-# Installation
+## Installation
 
 1. [Install Stripe](https://github.com/stripe/stripe-ios)
 2. [Install Eureka](https://github.com/xmartlabs/Eureka)
 2. Add "StripeRow.swift" to your project
 
-# Introduction
+## Introduction
 ```StripeRow``` is a custom row for Eureka in which the user will be able to input a credit card, its expiration date and the CVV/CVC value via Stripe's [STPPaymentCardTextField](https://stripe.github.io/stripe-ios/docs/Classes/STPPaymentCardTextField.html).
+It was created for [Slugbug](www.slugbug.co)
 
-
-# Usage
+## Usage
 
 ```swift
 import Eureka
@@ -34,12 +34,16 @@ class ViewController: FormViewController {
 }
 ```
 
-# Requirements
+## Requirements
 * iOS 8.0+
 * Xcode 8.3+
 
-# Examples
+## Examples
 Follow these steps to run Example project:
 * Clone Eureka-StripeRow repository
 * Open EurekaStripeRowExample workspace
 * Run the Example project.
+
+## Author
+* [Ali Mir](www.alimir.io) (Founder, [Slugbug](www.slugbug.co))
+
