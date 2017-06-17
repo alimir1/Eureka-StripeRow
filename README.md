@@ -28,7 +28,6 @@ class ViewController: FormViewController {
             <<< StripeRow().cellUpdate { cell, row in
                 self.paymentField = cell.paymentField
                 self.payBarButton.isEnabled = self.isValidForm()
-            }
         }
     }
 }
