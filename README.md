@@ -10,7 +10,7 @@ By: [Ali Mir](http://alimir.io)
 
 ## Introduction
 ```StripeRow``` is a custom row for Eureka in which the user will be able to input a credit card, its expiration date and the CVV/CVC value via Stripe's [STPPaymentCardTextField](https://stripe.github.io/stripe-ios/docs/Classes/STPPaymentCardTextField.html).
-It was created for [Slugbug](www.slugbug.co)
+It was created for [Slugbug](https://www.slugbug.co)
 
 ## Usage
 
@@ -45,5 +45,5 @@ Follow these steps to run Example project:
 * Run the Example project.
 
 ## Author
-* [Ali Mir](www.alimir.io) (Founder, [Slugbug](www.slugbug.co))
+* [Ali Mir](http://www.alimir.io) (Founder, [Slugbug](https://www.slugbug.co))
 
