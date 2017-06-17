@@ -1,0 +1,6 @@
+framework module Pods_EurekaStripeRowExample {
+  umbrella header "Pods-EurekaStripeRowExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

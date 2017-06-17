@@ -1,0 +1,15 @@
+PODS:
+  - Eureka (3.0.0)
+  - Stripe (10.1.0)
+
+DEPENDENCIES:
+  - Eureka
+  - Stripe
+
+SPEC CHECKSUMS:
+  Eureka: f36fd440c3ebb7bfea0a4fbe6f16a05f1cb35906
+  Stripe: 1c7aa951a075cced500a919d92b687b35d410705
+
+PODFILE CHECKSUM: 72bafb463e1d8ddc8960c03bf74c4071fc9bca85
+
+COCOAPODS: 1.1.1
