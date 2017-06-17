@@ -6,6 +6,7 @@ By: [Ali Mir](http://alimir.io)
 * [Introduction](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#introduction)
 * [Usage](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#usage)
 * [Requirements](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#requirements)
+* [Examples](https://github.com/alimir1/Eureka-StripeRow#examples)
 
 ## Installation
 1. [Install Stripe](https://github.com/stripe/stripe-ios)
