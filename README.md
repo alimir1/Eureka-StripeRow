@@ -12,6 +12,7 @@ Made with ❤️ by [Slugbug](https://www.slugbug.co) in Swift. This requires [E
 ![StripeRow Stripe payment ios app in Swift](StripeRowDemo.gif)
 
 ## Contents
+
 * [Installation]
 * [Introduction]
 * [Usage]
