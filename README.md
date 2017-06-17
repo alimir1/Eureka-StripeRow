@@ -5,18 +5,18 @@
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat" alt="Swift 3 compatible" /></a>
 </p>
 
+Made with ❤️ by [Slugbug](https://www.slugbug.co) in Swift.
+
 ## Overview
 
 ![StripeRow Stripe payment ios app in Swift](StripeRowDemo.gif)
 
-Made with ❤️ by [Slugbug](https://www.slugbug.co) in Swift.
-
 ## Contents
-* [Installation](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#installation)
-* [Introduction](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#introduction)
-* [Usage](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#usage)
-* [Requirements](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#requirements)
-* [Examples](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#examples)
+* [Installation]
+* [Introduction]
+* [Usage]
+* [Requirements]
+* [Examples]
 
 ## Installation
 1. [Install Stripe](https://github.com/stripe/stripe-ios)
