@@ -49,9 +49,17 @@ final class StripeCell: Cell<String>, CellType, STPPaymentCardTextFieldDelegate 
     }
 }
 
-/// Test
-/*
-    This is a test
+/**
+ *  An Eureka Row for STPPaymentCardTextField.
+ 
+ * Usage:
+ 
+ form +++
+    Section(footer: "Credit or Debit Card")
+    <<< StripeRow().cellUpdate { cell, row in
+    self.paymentField = cell.paymentField
+    self.payBarButton.isEnabled = self.isValidForm()
+ }
  */
 final class StripeRow: Row<StripeCell>, RowType {
     required init(tag: String?) {

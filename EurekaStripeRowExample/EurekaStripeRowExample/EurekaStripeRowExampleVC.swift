@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EurekaStripeRowExampleVC.swift
 //  EurekaStripeRowExample
 //
 //  Created by Ali Mir on 6/17/17.
@@ -10,21 +10,10 @@ import UIKit
 import Eureka
 import Stripe
 
-class ViewController: FormViewController {
+class EurekaStripeRowExampleVC: FormViewController {
     
     var payBarButton = UIBarButtonItem()
     var paymentField = STPPaymentCardTextField()
-    
-    var totalPrice: Double = 0.0 {
-        didSet {
-            if let row = form.rowBy(tag: "TotalPriceRow") {
-                // FIXME: - Update total price label here
-                row.title = "Total:\t$100)"
-            } else {
-                print("ViewController: Couldn't get row from tag: \"TotalPriceRow\"")
-            }
-        }
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +28,7 @@ class ViewController: FormViewController {
         )
         
         payBarButton.isEnabled = false
-        
+        self.navigationItem.title = "Purchase Workshop"
         self.navigationItem.rightBarButtonItem = payBarButton
         
         form +++
@@ -110,7 +99,7 @@ class ViewController: FormViewController {
         form +++
             Section()
             <<< LabelRow() {
-                $0.tag = "TotalPriceRow"
+                $0.title = "Total: $100.00"
         }
         
         // Enables smooth scrolling on navigation to off-screen rows

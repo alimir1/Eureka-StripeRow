@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		12ADFBD9ECC130984E2C2343 /* Pods_EurekaStripeRowExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB50ACFF3407826162C7B85 /* Pods_EurekaStripeRowExample.framework */; };
 		4947FBB31EF5BEB80067FA2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947FBB21EF5BEB80067FA2D /* AppDelegate.swift */; };
-		4947FBB51EF5BEB80067FA2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947FBB41EF5BEB80067FA2D /* ViewController.swift */; };
+		4947FBB51EF5BEB80067FA2D /* EurekaStripeRowExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4947FBB41EF5BEB80067FA2D /* EurekaStripeRowExampleVC.swift */; };
 		4947FBB81EF5BEB80067FA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4947FBB61EF5BEB80067FA2D /* Main.storyboard */; };
 		4947FBBA1EF5BEB90067FA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4947FBB91EF5BEB90067FA2D /* Assets.xcassets */; };
 		4947FBBD1EF5BEB90067FA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4947FBBB1EF5BEB90067FA2D /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		4947FBAF1EF5BEB80067FA2D /* EurekaStripeRowExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaStripeRowExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4947FBB21EF5BEB80067FA2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4947FBB41EF5BEB80067FA2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4947FBB41EF5BEB80067FA2D /* EurekaStripeRowExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaStripeRowExampleVC.swift; sourceTree = "<group>"; };
 		4947FBB71EF5BEB80067FA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4947FBB91EF5BEB90067FA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4947FBBC1EF5BEB90067FA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				4947FBB21EF5BEB80067FA2D /* AppDelegate.swift */,
-				4947FBB41EF5BEB80067FA2D /* ViewController.swift */,
+				4947FBB41EF5BEB80067FA2D /* EurekaStripeRowExampleVC.swift */,
 				4947FBC41EF5C07F0067FA2D /* StripeRow.swift */,
 				4947FBB61EF5BEB80067FA2D /* Main.storyboard */,
 				4947FBB91EF5BEB90067FA2D /* Assets.xcassets */,
@@ -126,7 +126,7 @@
 				TargetAttributes = {
 					4947FBAE1EF5BEB70067FA2D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = M6ZVBN5V88;
+						DevelopmentTeam = 396S2E45WK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4947FBC51EF5C07F0067FA2D /* StripeRow.swift in Sources */,
-				4947FBB51EF5BEB80067FA2D /* ViewController.swift in Sources */,
+				4947FBB51EF5BEB80067FA2D /* EurekaStripeRowExampleVC.swift in Sources */,
 				4947FBB31EF5BEB80067FA2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +341,7 @@
 			baseConfigurationReference = B46727E3E5647D060625DC97 /* Pods-EurekaStripeRowExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M6ZVBN5V88;
+				DEVELOPMENT_TEAM = 396S2E45WK;
 				INFOPLIST_FILE = EurekaStripeRowExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EurekaStripeRowExample;
@@ -355,7 +355,7 @@
 			baseConfigurationReference = B7423491DAA051AC2B3F007A /* Pods-EurekaStripeRowExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M6ZVBN5V88;
+				DEVELOPMENT_TEAM = 396S2E45WK;
 				INFOPLIST_FILE = EurekaStripeRowExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EurekaStripeRowExample;
