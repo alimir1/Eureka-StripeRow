@@ -5,7 +5,7 @@
 
 ## Overview
 
-![alt text](https://github.com/Slugbug/Eureka-StripeRow/blob/master/StripeRowDemo.gif)
+![StripeRow Stripe payment ios app in Swift](StripeRowDemo.gif)
 
 Made with ❤️ by [Slugbug](https://www.slugbug.co) in Swift.
 
