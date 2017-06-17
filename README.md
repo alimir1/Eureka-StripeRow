@@ -1,7 +1,7 @@
 # StripeRow
 By: [Ali Mir](http://alimir.io)
 
-# Contents
+## Contents
 * [Installation](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#installation)
 * [Introduction](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#introduction)
 * [Usage](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#usage)
