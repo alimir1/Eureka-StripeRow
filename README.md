@@ -1,9 +1,13 @@
 # StripeRow
-
 By: [Ali Mir](http://alimir.io)
 
-## Installation
+# Contents
+* [Installation](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#installation)
+* [Introduction](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#introduction)
+* [Usage](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#usage)
+* [Requirements](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#requirements)
 
+## Installation
 1. [Install Stripe](https://github.com/stripe/stripe-ios)
 2. [Install Eureka](https://github.com/xmartlabs/Eureka)
 2. Add "StripeRow.swift" to your project
