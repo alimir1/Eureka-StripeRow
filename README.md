@@ -5,7 +5,7 @@
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat" alt="Swift 3 compatible" /></a>
 </p>
 
-Made with ❤️ by [Slugbug](https://www.slugbug.co) in Swift.
+Made with ❤️ by [Slugbug](https://www.slugbug.co) in Swift. This requires [Eureka](https://github.com/xmartlabs/Eureka) and [Stripe](https://github.com/stripe/stripe-ios) iOS libraries.
 
 ## Overview
 
