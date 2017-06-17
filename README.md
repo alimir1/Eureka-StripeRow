@@ -1,4 +1,4 @@
-
+![StripeRow: STPPaymentCardTextField for Eureka in Swift](StripeRow.jpg)
 
 <p align="center">
 <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
