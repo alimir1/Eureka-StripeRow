@@ -15,7 +15,7 @@ By: [Slugbug](https://www.slugbug.co)
 
 ## Introduction
 ```StripeRow``` is a custom row for [Eureka](https://github.com/xmartlabs/Eureka) in which the user will be able to input a credit card, its expiration date and the CVV/CVC value via Stripe's [STPPaymentCardTextField](https://stripe.github.io/stripe-ios/docs/Classes/STPPaymentCardTextField.html).
-It was created for [Slugbug](https://www.slugbug.co)
+It was created for [Slugbug](https://www.slugbug.co)'s iOS app.
 
 ## Usage
 
