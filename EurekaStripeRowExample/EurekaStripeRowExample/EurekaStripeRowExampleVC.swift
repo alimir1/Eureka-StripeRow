@@ -17,7 +17,12 @@ class EurekaStripeRowExampleVC: FormViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupNavigationBar()
+        addSectionsToForms()
+        configureForm()
+    }
+    
+    func setupNavigationBar() {
         // Pay UIBarButtonItem
         payBarButton = UIBarButtonItem(
             title: "Pay",
@@ -26,11 +31,17 @@ class EurekaStripeRowExampleVC: FormViewController {
             // FIXME: - Payment button pressed action
             action: nil
         )
-        
         payBarButton.isEnabled = false
         self.navigationItem.title = "Purchase Workshop"
         self.navigationItem.rightBarButtonItem = payBarButton
-        
+    }
+}
+
+
+// MARK: - Eureka Form Setup
+
+extension EurekaStripeRowExampleVC {
+    func addSectionsToForms() {
         form +++
             Section("Git Fundamentals: From Beginner to Boss")
             
@@ -101,14 +112,16 @@ class EurekaStripeRowExampleVC: FormViewController {
             <<< LabelRow() {
                 $0.title = "Total: $100.00"
         }
-        
+    }
+    
+    func configureForm() {
         // Enables smooth scrolling on navigation to off-screen rows
         animateScroll = true
         // Leaves 20pt of space between the keyboard and the highlighted row after scrolling to an off screen row
         rowKeyboardSpacing = 20
     }
     
-    // Validation
+    // form validation
     func isValidForm() -> Bool {
         if !paymentField.isValid {
             return false
