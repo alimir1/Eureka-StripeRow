@@ -13,11 +13,11 @@ Made with ❤️ by [Slugbug](https://www.slugbug.co) in Swift. This requires [E
 
 ## Contents
 
-* [Installation](Installation)
-* [Introduction](Introduction)
-* [Usage](Usage)
-* [Requirements](Requirements)
-* [Examples](Examples)
+* [Installation](#Installation)
+* [Introduction](#Introduction)
+* [Usage](#Usage)
+* [Requirements](#Requirements)
+* [Examples](#Examples)
 
 ## Installation
 1. [Install Stripe](https://github.com/stripe/stripe-ios)
