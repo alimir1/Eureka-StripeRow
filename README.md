@@ -1,5 +1,5 @@
 # StripeRow
-By: [Ali Mir](http://alimir.io)
+By: [Slugbug](https://www.slugbug.co)
 
 ## Contents
 * [Installation](https://github.com/alimir1/Eureka-StripeRow/blob/master/README.md#installation)
@@ -14,7 +14,7 @@ By: [Ali Mir](http://alimir.io)
 2. Add "StripeRow.swift" to your project
 
 ## Introduction
-```StripeRow``` is a custom row for Eureka in which the user will be able to input a credit card, its expiration date and the CVV/CVC value via Stripe's [STPPaymentCardTextField](https://stripe.github.io/stripe-ios/docs/Classes/STPPaymentCardTextField.html).
+```StripeRow``` is a custom row for [Eureka](https://github.com/xmartlabs/Eureka) in which the user will be able to input a credit card, its expiration date and the CVV/CVC value via Stripe's [STPPaymentCardTextField](https://stripe.github.io/stripe-ios/docs/Classes/STPPaymentCardTextField.html).
 It was created for [Slugbug](https://www.slugbug.co)
 
 ## Usage
