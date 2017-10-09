@@ -60,5 +60,4 @@ Follow these steps to run Example project:
 * Run the Example project.
 
 ## Author
-* [Ali Mir](http://www.alimir.io) (Founder, [Slugbug](https://www.slugbug.co))
-
+* Ali Mir
