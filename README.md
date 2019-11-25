@@ -13,7 +13,6 @@ Made with ❤️ by Ali Mir. This requires [Eureka](https://github.com/xmartlabs
 ![StripeRow Stripe payment ios app in Swift](StripeRowDemo.gif)
 
 ## Contents
-
 * [Installation](#installation)
 * [Introduction](#introduction)
 * [Usage](#usage)
